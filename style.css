@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin: 16px;
+    width: 139px;
+    height: 60px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    padding: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #484646;
+}
+
+.get-access button {
+    padding: 15px;
+    background-color: #469165;
+    border-color: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.get-access button:hover {
+    background-color: #5ca47a;
+}
+
+.hero {
+    background: url('./assets/hero-bg.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 72px 0px;
+}
+
+.heor-content-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 8px 12px;
+    cursor: pointer;
+    max-width: 229px;
+    margin: 0 auto;
+}
+
+.heor-content-button img {
+    height: 16px;
+    width: 16px;
+}
+
+.heor-content-button p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.hero-content-heading {
+    margin-top: 40px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 84px;
+}
+
+.hero-content h1:nth-of-type(2) {
+    color: #30B868;
+}
+
+.hero-content-description {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.heor-content-button-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heor-content-button-group button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.heor-content-button-group button:nth-child(1) {
+    background: #30B868;
+}
+.heor-content-button-group button:nth-child(1):hover {
+    background: #326748;
+}
+
+.heor-content-button-group button:nth-child(2) {
+    background: transparent;
+    border: 2px solid ;
+}
+.heor-content-button-group button:nth-child(2):hover {
+    background: #ffffff;
+    border: 2px solid ;
+    color: #000000;
+}
