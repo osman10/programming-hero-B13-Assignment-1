@@ -302,6 +302,7 @@ body {
 }
 footer{
     background: #001931;
+    margin-top: 20px;
 }
 .social-links{
     display: flex;
