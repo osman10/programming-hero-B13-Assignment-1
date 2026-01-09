@@ -310,7 +310,7 @@ footer{
     max-width: 1360px;
     margin: 0 auto;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 .social-links h3{
     color: #ffffff;
