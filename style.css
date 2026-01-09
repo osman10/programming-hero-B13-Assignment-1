@@ -187,6 +187,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 24px;
+    max-width: 274px;
 }
 
 .card .card-img {
@@ -298,4 +299,35 @@ body {
 
 .ready-to-think button:hover {
     background: #326748;
+}
+footer{
+    background: #001931;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 100px 0;
+}
+.social-links h3{
+    color: #ffffff;
+}
+.social-links-icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+footer hr{
+    background: #E5E7EB;
+    width: 1360px;
+    margin: 0 auto;
+}
+footer p {
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
 }
