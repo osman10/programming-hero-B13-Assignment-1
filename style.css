@@ -140,17 +140,19 @@ body {
 .heor-content-button-group button:nth-child(1) {
     background: #30B868;
 }
+
 .heor-content-button-group button:nth-child(1):hover {
     background: #326748;
 }
 
 .heor-content-button-group button:nth-child(2) {
     background: transparent;
-    border: 2px solid ;
+    border: 2px solid;
 }
+
 .heor-content-button-group button:nth-child(2):hover {
     background: #ffffff;
-    border: 2px solid ;
+    border: 2px solid;
     color: #000000;
 }
 
@@ -159,32 +161,35 @@ body {
     margin: 0 auto;
 }
 
-.cards h2{
+.cards h2 {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     margin-top: 50px;
 }
-.cards p{
+
+.cards p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
-    color:#627382;
+    color: #627382;
 }
-.cards-group{
+
+.cards-group {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     margin-top: 40px;
 }
-.card{
+
+.card {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 24px;
-    min-width: 322px;
 }
-.card .card-img{
+
+.card .card-img {
     background: #F95555;
     height: 60px;
     width: 60px;
@@ -194,15 +199,63 @@ body {
     justify-content: center;
     margin: 50px auto;
 }
-.card h3{
+
+.card h3 {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     padding: 40px;
 }
-.card p{
+
+.card p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
     text-align: center;
+}
+
+.second-brain-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1360px;
+    margin: 70px auto;
+}
+
+.second-brain-section img {
+    width: 600px;
+    height: 600px;
+}
+
+.second-brain-section p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #469165;
+}
+
+.second-brain-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.second-brain-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 30px;
+}
+
+.second-brain-section ul {
+    margin-top: 30px;
+    list-style: none
+}
+
+.second-brain-section li {
+    margin-bottom: 15px;
+    background: url("./assets/CheckCircle.png") no-repeat;
+    background-position: 0 1px;
+    padding-left: 25px;
+
+
 }
